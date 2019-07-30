@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const path = require("path");
 const fs = require("fs-extra");
-const URL = require("url").URL;
+const { URL } = require("url");
 const _ = require("lodash");
 const rp = require("request-promise");
 const Readable = require("stream").Readable;
