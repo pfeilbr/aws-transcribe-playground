@@ -1,0 +1,24 @@
+{
+  "name": "aws-transcribe-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.502.0",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
