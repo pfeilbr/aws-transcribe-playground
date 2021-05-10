@@ -14,7 +14,7 @@
   "dependencies": {
     "aws-sdk": "^2.502.0",
     "fs-extra": "^8.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
